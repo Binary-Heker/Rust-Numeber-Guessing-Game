@@ -8,8 +8,6 @@ fn main() {
     // Generate Secret Number from 1 to 101
     let secret_num = rand::thread_rng().gen_range(1, 101);
 
-    println!("Secret Number {}",secret_num);
-
     loop {
         println!("Enter the number");
         let mut guess: String = String::new();  
